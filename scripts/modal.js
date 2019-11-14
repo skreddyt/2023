@@ -14,15 +14,15 @@ $(document).ready(function(){
       detail: ' USAA call centre receives numerous calls per day, all dialed-in customer information is stored in 3P file format in different locations respectively in referent databases. This application works as a translation layer to process these 3P files saves in different databases. These 3P files reached to the system on a scheduled manner and stores in OADB Databases, Shared PQ JSR Batch gathers this data from different databases and stores in centralized QA Report Database, Share PQ handles the burden in removing the redundant 3p records and reprocessing 3P files in its business defined manner USAA The Bulk Attribute Tool(BAT) is used to alter the attributes of agents both in bulk and individually. An Attribute identify a call routing requirement, such as language, location, or Agent expertise. Here we using Tool React and redux for design and connecting API. We are using React for Design Single pages and Redux we are using for API connecting We are creating our Own components not using the other components'    ,
     },
     DTE1: {
-      title: 'DTE',
+      title: 'YETI',
       tag: '',
-      detail: 'DTE energy Project Angery Bird .We are developing the Smart Mobile app Which can help full to custemor there can pay there PG&E bill there mobiles app. This Application we using the Technology React JS and React Native    ',
+      detail: 'The scope of Fusion will include design, development of components for the mentioned projects in the Salesforces platform, for Yeti coolers. It is a Customer Facing application where the user can directly access the application to get the quote for the products. This application can also be accessed by dealers to get the quotes for bulk products. This application is designed to handle the operations performed by the customer service. A user can contact the customer service or go the web page to get the quote for the products. The advantage of the using the website to get the quote is that customer can upload their custom logo on the products. All the information that is taken from the customer is validated by the customer service agents and will provide sample images to the customer which has the custom logo product. The customer can make changes or approve the products. If the customer approves the custom product it will proceed to the credit card department for further processing. Once the credit card payment is done customer will be directed to the order status page which has all the tracking details about the ordered products. The customer can see the tracking details by clicking on the tracking number provided in the order status page. Each product will have a status whether the product is shipped or delivered. The dealer will have the same view as the customer except the dealer has to provide some additional details about their organization and the purpose of the purchase. This application uses HTML, CSS, JavaScript, TypeScript, jQuery and salesforce lighting components.   ',
     },
     DTE: {
-      title: 'DTE',
+      title: 'COT',
       tag: 'Snapwork',
-      detail: 'DTE energy is PG&E payments on this application i Just working on fix the issue UI design and changing code to reducing the code by using genic and dynamic component make reusable.  ',
-    },
+      detail: 'ABC project is about Kentucky Alcohol beverage control which is a licensing portal for applying for licenses for alcohol sales and production in this project we are working on building an online portal where citizens and public can go and apply for the licenses in order to do the business legally. In this process the user can apply for new applications and renewal of applications additional requests that are needed to run their business ',
+       },
     
     
   };
@@ -109,7 +109,7 @@ $(document).ready(function(){
     });
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
-        background: "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
+        backgroundImage: "url('img/slides/" + id + '-' + index + ".jpg') no-repeat",
         backgroundSize: 'cover'
       });
               
