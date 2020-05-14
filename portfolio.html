@@ -25,6 +25,7 @@
   <script src="scripts/pt.min.js"></script>
   <script src="scripts/index.js"></script>
   <script src="scripts/modal.js"></script>
+  
 
 </head>
 <body>
@@ -48,7 +49,49 @@
   </div>
 
   <section id="home" class="flex height-fix">
-    <div id="pt" class="canvas"></div>
+    <div id="pt" class="canvas">
+
+    </div>
+    
+    <div class="skills-wrapper flex row-gt-sm"style="font-size: x-large; margin-bottom: 3%;line-height: 38px;">
+        <div class="flex-100-gt-sm waypoint" data-animation="slide-in-left">
+            <div class="app-title">    
+                <p style="padding-left: 10px;">Weather</p>    
+                </div>
+            <table class="table table-striped  ">     
+                <thead class="text-right">
+                <tr>
+                <th scope="col">
+                 <div class="notification"> </div>   
+                    </th>
+                              <th scope="col">
+                                    <div class="weather-icon">    
+                                            <!--img src="icons/unknown.png" alt=""-->    
+                                        </div> 
+                                  </th>
+                              <th scope="col">
+                                    <div class="temperature-value">    
+                                            <p>- °<span>C</span></p>    
+                                        </div> 
+                              </th>
+                              <th scope="col">
+                                    <div class="temperature-description">    
+                                            <p> - </p>    
+                                        </div>  
+                              </th>
+                              <th scope="col">
+                                    <div class="location">    
+                                            <p>-</p>    
+                                        </div>  
+                              </th>
+                            </tr>
+                          </thead>
+            </table> 
+           <a>Total Viewers:
+                              <img src="https://hitwebcounter.com/counter/counter.php?page=7346800&style=0024&nbdigits=4&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" style="background-color: white;">
+                              </a> 
+        </div>
+    </div>
     <div class="flex">
      
       <div class="text">
@@ -67,6 +110,11 @@
           <div class="page-link" dest="portfolio">Projects</div>
           <div class="page-link" dest="blog">Educations</div>
           <div class="page-link" dest="contact">Contact</div>
+          <div class="page-link">
+              <a href="https://www.linkedin.com/in/kumar-tangella-b59976163/" target="_blank">linkedin</a>
+          </div>
+          
+                         
         </div>
         <i class="mdi mdi-menu"></i>
       </nav>
@@ -79,9 +127,26 @@
     <div class="container flex">
 
       <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
-      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".50s"></div>
 
-      <div class="flex row label-wrap">
+      <div class="skills-wrapper flex row-gt-sm" style="margin-bottom:5%">
+          <div class="flex flex-100-gt-sm waypoint" data-animation="slide-in-left">
+            <img src="sravan.png" class="me">
+            <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+            <div class="label bold">Who's this guy?</div>
+            <div>
+              I'm the UX/UI designer & developer for <a class="highlight" href="">COT</a> in Frankfort,KY.
+              <br>
+              I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+              <br>
+              <span class="page-link highlight" dest="contact">Let's make something special.</span>
+            </div>
+          </div>
+  
+          
+        </div>
+
+      <div class="flex row label-wrap"style="margin-bottom:5%">
         <div class="flex row-gt-sm">
         <div class="flex bullet-wrap ">
           <div class="hex-wrap waypoint" data-animation="flip-in-x">
@@ -134,95 +199,23 @@
         </div>
       </div>
 
+     
       <div class="skills-wrapper flex row-gt-sm">
-        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
-          <img src="sravan.jpeg" class="me">
-          <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-          <div class="label bold">Who's this guy?</div>
-          <div>
-            I'm the UX/UI designer & developer for <a class="highlight" href="">COT</a> in Frankfort,KY.
-            <br>
-            I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
-            <br>
-            <span class="page-link highlight" dest="contact">Let's make something special.</span>
+          <div class="flex flex-100-gt-sm waypoint" data-animation="slide-in-left">
+        
+          <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary skillsbutton " id ="Designerbutton">Tools</button>
+          <button type="button" class="btn btn-secondary skillsbutton " id="DevelopmentButton">Languages</button>
+          <button type="button" class="btn btn-secondary skillsbutton  " id="frameworksButton">Frameworks</button> 
           </div>
-        </div>
+          <div class="flex-wrapper" style="width: inherit;">
+          <div class="row" id ="designerPercent" style="width:800px;display: flex;">
 
-        <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
-          <div class="bar flex">
-            <div class="bar fill" style="width:90%">
-              <div class="tag bold flex">CSS</div>
-            </div>
-            <span>90%</span>
           </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:90%">
-              <div class="tag bold flex">HTML</div>
-            </div>
-            <span>90%</span>
           </div>
-
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">React</div>
-            </div>
-            <span>60%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:80%">
-              <div class="tag bold flex">JavaScript</div>
-            </div>
-            <span>80%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">Angular</div>
-            </div>
-            <span>60%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:55%">
-              <div class="tag bold flex">Node.js</div>
-            </div>
-            <span>50%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:95%">
-              <div class="tag bold flex">UI/UX Design</div>
-            </div>
-            <span>95%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:90%">
-              <div class="tag bold flex">Photoshop</div>
-            </div>
-            <span>90%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:90%">
-              <div class="tag bold flex">Illustrator</div>
-            </div>
-            <span>90%</span>
-          </div>
-          
-          <div class="bar flex">
-            <div class="bar fill" style="width:95%">
-              <div class="tag bold flex">wireFrames</div>
-            </div>
-            <span>95%</span>
-          </div>
-
-        </div>
-      </div>
+      
     </div>
+  </div>
   </section>
 
 <!-- PORTFOLIO -->
@@ -319,7 +312,7 @@
               <div class="fade-wrap">
                 <div class="thumb" id="thumb-1"></div>
                 <div class="label bold">Bachelors in Information Technology</div>
-                <div class="bar"></div>
+                
                 
               </div>
             </div>
@@ -329,7 +322,7 @@
               <div class="fade-wrap">
                 <div class="thumb" id="thumb-2"></div>
                 <div class="label bold">Masters in ComputerSciences</div>
-                <div class="bar"></div>
+                
                 
               </div>
             </div>
@@ -342,14 +335,28 @@
                 <div class="thumb" id="thumb-3"></div>
                 <div class="label bold">Second Masters: Information Systems Security 
                   </div>
-                <div class="date">STill Going On</div>
-                <div class="bar"></div>
+                
                
               </div>
             </div>
         
           
         </div>
+        <div class="flex row-gt-sm">
+          
+          <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s">
+            <div class="fade-wrap">
+              <div class="thumb" id="thumb-3"></div>
+              <div class="label bold">Third Masters: Project Managment 
+                </div>
+              <div class="date">STill Going On</div>
+              <div class="bar"></div>
+             
+            </div>
+          </div>
+      
+        
+      </div>
       </div>
     </div>
   </section>
@@ -412,6 +419,11 @@
 <div id="preload">
   
 </div>
+<script src="scripts/skillsGraph.js"></script>
+<script src="scripts/app.js"></script>
+<script>
+$(Designerbutton).trigger('click');
+</script>
 
 </body>
 </html>
