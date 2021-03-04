@@ -23,7 +23,11 @@ $(document).ready(function(){
       tag: 'Snapwork',
       detail: 'ABC project is about Kentucky Alcohol beverage control which is a licensing portal for applying for licenses for alcohol sales and production in this project we are working on building an online portal where citizens and public can go and apply for the licenses in order to do the business legally. In this process the user can apply for new applications and renewal of applications additional requests that are needed to run their business ',
        },
-    
+    ATT: {
+      title: 'ATT',
+      tag: 'Snapwork',
+      detail: 'ABC project is about Kentucky Alcohol beverage control which is a licensing portal for applying for licenses for alcohol sales and production in this project we are working on building an online portal where citizens and public can go and apply for the licenses in order to do the business legally. In this process the user can apply for new applications and renewal of applications additional requests that are needed to run their business ',
+       },
     
   };
 
